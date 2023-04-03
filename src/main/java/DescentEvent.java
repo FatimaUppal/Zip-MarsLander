@@ -3,13 +3,14 @@ public class DescentEvent {
     int Velocity = 0;
     int Fuel = 0;
     int Altitude = 0;
-    int Status = 0;
+    int Status =0;
 
     public DescentEvent(int t, int sp, int f, int h, int st) {
         this.Seconds = t * 10;
         this.Velocity = sp;
         this.Fuel = f;
         this.Altitude = h;
+        this.Status=st;
 
     }
 

@@ -47,7 +47,7 @@ public class Vehicle {
                 Flying = SUCCESS;
             }
         } else {
-            if (this.Altitude > 0) {
+            if (this.Altitude > 0 ){
                 s = emptyfuel;
                 Flying = EMPTYFUEL;
             } }
